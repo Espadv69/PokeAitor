@@ -60,3 +60,5 @@ const pokemons = [
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png',
   },
 ]
+
+modules.exports = pokemons
