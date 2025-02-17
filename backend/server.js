@@ -1,10 +1,10 @@
-const express = require('express')
-const cors = require('cors')
-const pokemons = require('./data/data.js')
+import express, { json } from 'express'
+import cors from 'cors'
+import pokemons from './data/data.js'
 
 const app = express()
 app.use(cors())
-app.use(express.json())
+app.use(json())
 
 const PORT = 5000
 
