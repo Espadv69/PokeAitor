@@ -23,4 +23,10 @@ const pokemons = [
     type: ['Fire'],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png',
   },
+  {
+    id: 5,
+    name: 'Charmeleon',
+    type: ['Fire'],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png',
+  },
 ]
