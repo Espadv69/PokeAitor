@@ -29,4 +29,10 @@ const pokemons = [
     type: ['Fire'],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png',
   },
+  {
+    id: 6,
+    name: 'Charizard',
+    type: ['Fire', 'Flying'],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png',
+  },
 ]
