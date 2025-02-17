@@ -8,7 +8,7 @@ const App = () => {
       const $ul = document.querySelector('.pokemons')
       data.forEach((pokemon) => {
         const $li = document.createElement('li')
-        $li.textContent = pokemon.name
+        $li.textContent = `${pokemon.name} - ${pokemon.type.join(', ')}`
         $ul.appendChild($li)
       })
     } catch (err) {
