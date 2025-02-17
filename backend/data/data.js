@@ -61,4 +61,4 @@ const pokemons = [
   },
 ]
 
-modules.exports = pokemons
+export default pokemons
