@@ -53,4 +53,10 @@ const pokemons = [
     type: ['Water'],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png',
   },
+  {
+    id: 10,
+    name: 'Caterpie',
+    type: ['Bug'],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png',
+  },
 ]
