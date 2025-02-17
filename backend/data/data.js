@@ -41,4 +41,10 @@ const pokemons = [
     type: ['Water'],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png',
   },
+  {
+    id: 8,
+    name: 'Wartortle',
+    type: ['Water'],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png',
+  },
 ]
