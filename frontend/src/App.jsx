@@ -8,14 +8,14 @@ const App = () => {
       const $ul = document.querySelector('.pokemons')
       data.forEach((pokemon) => {
         const $li = document.createElement('li')
-        $li.textContent = `${pokemon.name} - ${pokemon.type.join(', ')}`
+        $li.innerHTML = `${pokemon.name} - ${pokemon.type.join(', ')} <img src="${pokemon.img}" alt="${pokemon.img}" width="120px" />`
         $ul.appendChild($li)
       })
     } catch (err) {
       console.error(err)
     }
   }
-  
+
   pokemons()
   return (
     <div>
