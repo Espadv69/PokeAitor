@@ -47,4 +47,10 @@ const pokemons = [
     type: ['Water'],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png',
   },
+  {
+    id: 9,
+    name: 'Blastoise',
+    type: ['Water'],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png',
+  },
 ]
