@@ -12,6 +12,10 @@ app.get('/', async (req, res) => {
   res.send('Welcome to the Pokemon API!')
 })
 
+app.get('/api/pokemons', async (req, res) => {
+  res.json(pokemons)
+})
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
 })
