@@ -35,4 +35,10 @@ const pokemons = [
     type: ['Fire', 'Flying'],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png',
   },
+  {
+    id: 7,
+    name: 'Squirtle',
+    type: ['Water'],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png',
+  },
 ]
