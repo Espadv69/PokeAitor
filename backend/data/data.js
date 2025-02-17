@@ -11,4 +11,10 @@ const pokemons = [
     type: ['Grass', 'Poison'],
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png',
   },
+  {
+    id: 3,
+    name: 'Venusaur',
+    type: ['Grass', 'Poison'],
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png',
+  },
 ]
