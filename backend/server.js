@@ -35,8 +35,8 @@ const cleanUp = () => {
   console.log('\n🔻 Closing server...')
 
   try {
-    server.connections.forEach((conn) => conn.end())
-    console.log('🗑️ Connection closed.')
+    server.closeAllConnections()
+    console.log('🗑️  Connection closed.')
   } catch (err) {
     console.error('❌ Error closing connection:', err)
   }
