@@ -22,6 +22,11 @@
   border-radius: .5rem;
 
   background: #0000008f;
+  transition: scale .2s;
+}
+
+.pokeLi:hover {
+  scale: 1.05;
 }
 
 @media (max-width: 768px) {
