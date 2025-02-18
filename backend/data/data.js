@@ -67,6 +67,8 @@ const pokemons = [
     id: 9,
     name: 'Blastoise',
     type: ['Water'],
+    description:
+      'It deliberately increases its body weight so it can withstand the recoil of the water jets it fires.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png',
   },
   {
