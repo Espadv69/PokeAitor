@@ -43,6 +43,8 @@ const pokemons = [
     id: 6,
     name: 'Charizard',
     type: ['Fire', 'Flying'],
+    description:
+      'If Charizard becomes truly angered, the flame at the tip of its tail burns in a light blue shade.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png',
   },
   {
