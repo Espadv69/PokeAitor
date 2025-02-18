@@ -15,6 +15,8 @@ const App = () => {
         console.error(err)
       }
     }
+
+    fetchPokemons()
   }, [])
 
   return (
