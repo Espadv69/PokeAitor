@@ -35,6 +35,8 @@ const pokemons = [
     id: 5,
     name: 'Charmeleon',
     type: ['Fire'],
+    description:
+      'When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png',
   },
   {
