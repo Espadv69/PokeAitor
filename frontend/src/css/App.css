@@ -49,3 +49,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.modal-content {
+  text-align: center;
+
+  padding: 1rem;
+  width: 80%;
+  height: 80%;
+
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+
+  border: 2px solid whitesmoke;
+  border-radius: .5rem;
+
+  background: #060606;
+}
