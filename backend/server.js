@@ -27,6 +27,22 @@ app.get('/api/pokemons/:id', async (req, res) => {
   }
 })
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`)
 })
+
+const cleanUp = () => {
+  console.log('\n🔻 Closing server...')
+
+  try {
+    server.connections.forEach((conn) => conn.end())
+    console.log('🗑️ Connection closed.')
+  } catch (err) {
+    console.error('❌ Error closing connection:', err)
+  }
+
+  server.close(() => {
+    console.log('🛑 Server closed.')
+    process.exit(0)
+  })
+}
