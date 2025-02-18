@@ -12,6 +12,18 @@
   justify-items: center;
 }
 
+.pokeLi {
+  cursor: pointer;
+  list-style: none;
+
+  padding: 1rem;
+
+  border: 2px solid whitesmoke;
+  border-radius: .5rem;
+
+  background: #0000008f;
+}
+
 @media (max-width: 768px) {
   .pokemons {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
