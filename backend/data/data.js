@@ -27,6 +27,8 @@ const pokemons = [
     id: 4,
     name: 'Charmander',
     type: ['Fire'],
+    description:
+      'The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png',
   },
   {
