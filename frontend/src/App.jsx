@@ -26,7 +26,7 @@ const App = () => {
       <h1 className="pokeTitle">PokeAPI</h1>
       <ul className="pokemons">
         {pokemons.map((pokemon) => (
-          <li key={pokemon.name}>
+          <li key={pokemon.name} className="pokeLi">
             <p className="pokeName">{pokemon.name}</p>
             <p className="pokeType">{pokemon.type.join(', ')}</p>
             <img
