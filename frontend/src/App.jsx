@@ -21,7 +21,15 @@ const App = () => {
 
   return (
     <div>
-      <ul className="pokemons"></ul>
+      <ul className="pokemons">
+        {pokemons.map((pokemon) => (
+          <li key={pokemon.name}>
+            <p>{pokemon.name}</p>
+            <p>{pokemon.type.join(', ')}</p>
+            <img src={pokemon.img} alt={pokemon.name} width="100px" />
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
