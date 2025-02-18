@@ -51,6 +51,8 @@ const pokemons = [
     id: 7,
     name: 'Squirtle',
     type: ['Water'],
+    description:
+      'After birth, its back swells and hardens into a shell. It spays a potent foam from its mouth.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png',
   },
   {
