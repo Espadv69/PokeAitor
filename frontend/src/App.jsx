@@ -2,6 +2,26 @@ import { useState, useEffect } from 'react'
 
 import './css/App.css'
 
+const typeColor = {
+  Fire: 'orange',
+  Water: 'royalblue',
+  Grass: 'green',
+  Electric: 'yellow',
+  Ice: 'lightblue',
+  Fighting: 'brow',
+  Poison: 'purple',
+  Ground: 'sienna',
+  Flying: 'gray',
+  Psychic: 'pink',
+  Bug: 'limegreen',
+  Rock: 'darkgray',
+  Ghost: 'indigo',
+  Dragon: 'darkblue',
+  Dark: 'dark',
+  Steel: 'slategray',
+  Fairy: 'hotpink',
+}
+
 const App = () => {
   const [pokemons, setPokemons] = useState([])
 
