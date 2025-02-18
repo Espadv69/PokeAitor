@@ -1,3 +1,6 @@
+/* Onest font-family */
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
 *,
 *::after,
 *::before {
@@ -8,6 +11,7 @@
 
 body {
   font-family:
+    'Onest',
     system-ui,
     -apple-system,
     BlinkMacSystemFont,
