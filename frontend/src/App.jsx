@@ -48,7 +48,19 @@ const App = () => {
         {pokemons.map((pokemon) => (
           <li key={pokemon.name} className="pokeLi">
             <p className="pokeName">{pokemon.name}</p>
-            <p className="pokeType">{pokemon.type.join(', ')}</p>
+            <p className="pokeType">
+              {pokemon.type.map((t) => (
+                <span
+                  key={t}
+                  style={{
+                    color: typeColor[t] || 'black',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  {t}{' '}
+                </span>
+              ))}
+            </p>
             <img
               className="pokeImage"
               src={pokemon.img}
