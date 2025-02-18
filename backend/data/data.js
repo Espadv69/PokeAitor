@@ -75,6 +75,8 @@ const pokemons = [
     id: 10,
     name: 'Caterpie',
     type: ['Bug'],
+    description:
+      'For protection, it releases a horrible stench from the antenna on its head to drive away enemies.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png',
   },
 ]
