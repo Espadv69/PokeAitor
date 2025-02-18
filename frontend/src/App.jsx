@@ -75,6 +75,22 @@ const App = () => {
           </li>
         ))}
       </ul>
+
+      {selectedPokemon && (
+        <div className="modal-overlay" onClick={() => setSelectedPokemon(null)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <h2>{selectedPokemon.name}</h2>
+            <img
+              src={selectedPokemon.img}
+              alt={selectedPokemon.name}
+              width="150px"
+            />
+            <p>Type: {selectedPokemon.type.join(', ')}</p>
+
+            <button onClick={() => setSelectedPokemon(null)}>Close</button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
