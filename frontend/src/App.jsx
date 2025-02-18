@@ -24,6 +24,7 @@ const typeColor = {
 
 const App = () => {
   const [pokemons, setPokemons] = useState([])
+  const [selectedPokemon, setSelectedPokemon] = useState(null)
 
   useEffect(() => {
     const fetchPokemons = async () => {
@@ -46,7 +47,11 @@ const App = () => {
       <h1 className="pokeTitle">PokeAPI</h1>
       <ul className="pokemons">
         {pokemons.map((pokemon) => (
-          <li key={pokemon.name} className="pokeLi">
+          <li
+            key={pokemon.name}
+            className="pokeLi"
+            onClick={() => setSelectedPokemon(pokemon)}
+          >
             <p className="pokeName">{pokemon.name}</p>
             <p className="pokeType">
               {pokemon.type.map((t) => (
