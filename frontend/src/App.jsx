@@ -23,6 +23,7 @@ const App = () => {
 
   return (
     <div>
+      <h1 className="pokeTitle">PokeAPI</h1>
       <ul className="pokemons">
         {pokemons.map((pokemon) => (
           <li key={pokemon.name}>
