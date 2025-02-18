@@ -46,3 +46,6 @@ const cleanUp = () => {
     process.exit(0)
   })
 }
+
+process.on('SIGINT', cleanUp) // Ctrl + C
+process.on('SIGTERM', cleanUp) // Linux
