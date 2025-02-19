@@ -115,6 +115,14 @@ const pokemons = [
     id: 8,
     name: 'Wartortle',
     type: ['Water'],
+    stats: {
+      hp: 59,
+      attack: 63,
+      defense: 80,
+      specialAttack: 65,
+      specialDefense: 80,
+      speed: 58,
+    },
     description:
       "Wartortle's long, furry tail is a symbol of longevity, so this pokemon is quite popular among older people.",
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png',
