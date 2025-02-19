@@ -163,6 +163,14 @@ const pokemons = [
     id: 11,
     name: 'Metapod',
     type: ['Bug'],
+    stats: {
+      hp: 50,
+      attack: 20,
+      defense: 55,
+      specialAttack: 25,
+      specialDefense: 25,
+      speed: 30,
+    },
     description:
       'It is waiting for the moment to envolve. At this stage, it can only harden, so it remains motionless to avoid attack.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png',
