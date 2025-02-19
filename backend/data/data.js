@@ -87,6 +87,14 @@ const pokemons = [
       'It is waiting for the moment to envolve. At this stage, it can only harden, so it remains motionless to avoid attack.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png',
   },
+  {
+    id: 12,
+    name: 'Butterfree',
+    type: ['Bug', 'Flying'],
+    description:
+      'It loves the nectar of flowers and can locate flower patches that have even tiny amounts of pollen.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png',
+  },
 ]
 
 export default pokemons
