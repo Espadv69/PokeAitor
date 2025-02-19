@@ -95,6 +95,14 @@ const pokemons = [
       'It loves the nectar of flowers and can locate flower patches that have even tiny amounts of pollen.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png',
   },
+  {
+    id: 13,
+    name: 'Weedle',
+    type: ['Bug', 'Poison'],
+    description:
+      'Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png',
+  },
 ]
 
 export default pokemons
