@@ -275,6 +275,14 @@ const pokemons = [
     id: 18,
     name: 'Pidgeot',
     type: ['Normal', 'Flying'],
+    stats: {
+      hp: 83,
+      attack: 80,
+      defense: 75,
+      specialAttack: 70,
+      specialDefense: 70,
+      speed: 101,
+    },
     description:
       'This pokemon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png',
