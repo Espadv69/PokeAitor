@@ -72,7 +72,7 @@ const App = () => {
               alt={pokemon.name}
               width="100px"
             />
-            <p>#{String(pokemon.id).padStart(3, '0')}</p>
+            <strong>#{String(pokemon.id).padStart(3, '0')}</strong>
           </li>
         ))}
       </ul>
