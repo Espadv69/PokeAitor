@@ -111,6 +111,14 @@ const pokemons = [
       'Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png',
   },
+  {
+    id: 15,
+    name: 'Beedrill',
+    type: ['Bug', 'Poison'],
+    description:
+      'It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png',
+  },
 ]
 
 export default pokemons
