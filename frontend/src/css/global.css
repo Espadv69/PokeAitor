@@ -28,4 +28,5 @@ body {
 
   color: #f5f5f5;
   background: #121212;
+  overflow-x: hidden;
 }
