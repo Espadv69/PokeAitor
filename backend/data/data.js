@@ -67,6 +67,14 @@ const pokemons = [
     id: 5,
     name: 'Charmeleon',
     type: ['Fire'],
+    stats: {
+      hp: 58,
+      attack: 64,
+      defense: 58,
+      specialAttack: 80,
+      specialDefense: 65,
+      speed: 80,
+    },
     description:
       'When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png',
