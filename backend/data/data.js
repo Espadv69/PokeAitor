@@ -179,6 +179,14 @@ const pokemons = [
     id: 12,
     name: 'Butterfree',
     type: ['Bug', 'Flying'],
+    stats: {
+      hp: 60,
+      attack: 45,
+      defense: 50,
+      specialAttack: 90,
+      specialDefense: 80,
+      speed: 70,
+    },
     description:
       'It loves the nectar of flowers and can locate flower patches that have even tiny amounts of pollen.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png',
