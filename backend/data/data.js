@@ -195,6 +195,14 @@ const pokemons = [
     id: 13,
     name: 'Weedle',
     type: ['Bug', 'Poison'],
+    stats: {
+      hp: 40,
+      attack: 35,
+      defense: 30,
+      specialAttack: 20,
+      specialDefense: 20,
+      speed: 50,
+    },
     description:
       'Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png',
