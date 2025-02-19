@@ -243,6 +243,14 @@ const pokemons = [
     id: 16,
     name: 'Pidgey',
     type: ['Normal', 'Flying'],
+    stats: {
+      hp: 40,
+      attack: 45,
+      defense: 40,
+      specialAttack: 35,
+      specialDefense: 35,
+      speed: 56,
+    },
     description:
       'Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png',
