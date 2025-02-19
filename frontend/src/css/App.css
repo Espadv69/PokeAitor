@@ -67,3 +67,14 @@
 
   background: #060606;
 }
+
+.modal-content__button {
+  cursor: pointer;
+  padding: .5rem 1rem;
+
+  border: 2px solid white;
+  border-radius: 8px;
+
+  color: red;
+  background: transparent;
+}
