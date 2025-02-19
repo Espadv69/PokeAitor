@@ -211,6 +211,14 @@ const pokemons = [
     id: 14,
     name: 'Kakuna',
     type: ['Bug', 'Poison'],
+    stats: {
+      hp: 45,
+      attack: 25,
+      defense: 50,
+      specialAttack: 25,
+      specialDefense: 25,
+      speed: 35,
+    },
     description:
       'Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png',
