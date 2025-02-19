@@ -135,6 +135,14 @@ const pokemons = [
       'This pokemon is full of vitality. It constantly flies around its large territory in search of prey.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png',
   },
+  {
+    id: 18,
+    name: 'Pidgeot',
+    type: ['Normal', 'Flying'],
+    description:
+      'This pokemon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png',
+  },
 ]
 
 export default pokemons
