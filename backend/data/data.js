@@ -147,6 +147,14 @@ const pokemons = [
     id: 10,
     name: 'Caterpie',
     type: ['Bug'],
+    stats: {
+      hp: 45,
+      attack: 30,
+      defense: 35,
+      specialAttack: 20,
+      specialDefense: 20,
+      speed: 45,
+    },
     description:
       'For protection, it releases a horrible stench from the antenna on its head to drive away enemies.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png',
