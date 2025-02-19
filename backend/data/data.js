@@ -99,6 +99,14 @@ const pokemons = [
     id: 7,
     name: 'Squirtle',
     type: ['Water'],
+    stats: {
+      hp: 44,
+      attack: 48,
+      defense: 65,
+      specialAttack: 50,
+      specialDefense: 64,
+      speed: 43,
+    },
     description:
       'After birth, its back swells and hardens into a shell. It spays a potent foam from its mouth.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png',
