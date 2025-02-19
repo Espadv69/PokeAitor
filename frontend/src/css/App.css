@@ -57,6 +57,15 @@
   }
 }
 
+.hidden {
+  display: none;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s forwards;
+}
+
 .modal-overlay {
   position: fixed;
   top: 0;
