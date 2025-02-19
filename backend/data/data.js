@@ -103,6 +103,14 @@ const pokemons = [
       'Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png',
   },
+  {
+    id: 14,
+    name: 'Kakuna',
+    type: ['Bug', 'Poison'],
+    description:
+      'Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png',
+  },
 ]
 
 export default pokemons
