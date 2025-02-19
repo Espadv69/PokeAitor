@@ -35,6 +35,14 @@ const pokemons = [
     id: 3,
     name: 'Venusaur',
     type: ['Grass', 'Poison'],
+    stats: {
+      hp: 80,
+      attack: 82,
+      defense: 83,
+      specialAttack: 100,
+      specialDefense: 100,
+      speed: 80,
+    },
     description:
       'While it basks in the sun, it can convert the light into energy. As a result, it is more powerful in the summertime.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png',
