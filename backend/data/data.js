@@ -227,6 +227,14 @@ const pokemons = [
     id: 15,
     name: 'Beedrill',
     type: ['Bug', 'Poison'],
+    stats: {
+      hp: 65,
+      attack: 90,
+      defense: 40,
+      specialAttack: 45,
+      specialDefense: 80,
+      speed: 75,
+    },
     description:
       'It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png',
