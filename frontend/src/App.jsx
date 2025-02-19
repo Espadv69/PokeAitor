@@ -25,6 +25,7 @@ const typeColor = {
 const App = () => {
   const [pokemons, setPokemons] = useState([])
   const [selectedPokemon, setSelectedPokemon] = useState(null)
+  const [loandingImages, setLoandingImages] = useState({})
 
   useEffect(() => {
     const fetchPokemons = async () => {
@@ -41,6 +42,10 @@ const App = () => {
 
     fetchPokemons()
   }, [])
+
+  const handleImageLoad = (name) => {
+    setLoandingImages((prev) => ({ ...prev, [name]: false }))
+  }
 
   return (
     <div>
@@ -66,11 +71,18 @@ const App = () => {
                 </span>
               ))}
             </p>
+            {loandingImages[pokemon.name] && (
+              <div className="image-loader"></div>
+            )}
             <img
-              className="pokeImage"
+              className={`pokeImage ${
+                loandingImages[pokemon.name] ? 'hidden' : 'fade-in'
+              }`}
               src={pokemon.img}
               alt={pokemon.name}
               width="100px"
+              onLoad={() => handleImageLoad(pokemon.name)}
+              onError={() => handleImageLoad(pokemon.name)}
             />
             <strong>#{String(pokemon.id).padStart(3, '0')}</strong>
           </li>
@@ -107,12 +119,26 @@ const App = () => {
 
             <ul className="modal-content__stats">
               <h3>Stats:</h3>
-              <li>Hp: <strong>{selectedPokemon.stats.hp}</strong></li>
-              <li>Attack: <strong>{selectedPokemon.stats.attack}</strong></li>
-              <li>Defense: <strong>{selectedPokemon.stats.defense}</strong></li>
-              <li>Special Attack: <strong>{selectedPokemon.stats.specialAttack}</strong></li>
-              <li>Special Defense: <strong>{selectedPokemon.stats.specialDefense}</strong></li>
-              <li>Speed: <strong>{selectedPokemon.stats.speed}</strong></li>
+              <li>
+                Hp: <strong>{selectedPokemon.stats.hp}</strong>
+              </li>
+              <li>
+                Attack: <strong>{selectedPokemon.stats.attack}</strong>
+              </li>
+              <li>
+                Defense: <strong>{selectedPokemon.stats.defense}</strong>
+              </li>
+              <li>
+                Special Attack:{' '}
+                <strong>{selectedPokemon.stats.specialAttack}</strong>
+              </li>
+              <li>
+                Special Defense:{' '}
+                <strong>{selectedPokemon.stats.specialDefense}</strong>
+              </li>
+              <li>
+                Speed: <strong>{selectedPokemon.stats.speed}</strong>
+              </li>
             </ul>
 
             <button
