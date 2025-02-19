@@ -79,15 +79,23 @@ const App = () => {
       {selectedPokemon && (
         <div className="modal-overlay" onClick={() => setSelectedPokemon(null)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <h2>{selectedPokemon.name}</h2>
+            <h2 className="modal-content__name">{selectedPokemon.name}</h2>
             <img
               src={selectedPokemon.img}
               alt={selectedPokemon.name}
               width="150px"
+              className="modal-content__image"
             />
-            <p>Type: {selectedPokemon.type.join(', ')}</p>
+            <p className="modal-content__type">
+              Type: {selectedPokemon.type.join(', ')}
+            </p>
 
-            <button onClick={() => setSelectedPokemon(null)}>Close</button>
+            <button
+              className="modal-content__button"
+              onClick={() => setSelectedPokemon(null)}
+            >
+              Close
+            </button>
           </div>
         </div>
       )}
