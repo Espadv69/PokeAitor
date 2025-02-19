@@ -27,7 +27,6 @@
 
 .pokeLi:hover {
   scale: .95;
-  filter: brightness(1.2);
 }
 
 @media (max-width: 768px) {
@@ -55,7 +54,7 @@
   text-align: center;
 
   padding: 1rem;
-  width: 50%;
+  width: 70%;
   height: auto;
 
   display: flex;
