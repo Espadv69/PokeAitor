@@ -56,12 +56,13 @@
 
   padding: 1rem;
   width: 50%;
-  height: 90%;
+  height: auto;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 1rem;
 
   border: 2px solid whitesmoke;
   border-radius: .5rem;
