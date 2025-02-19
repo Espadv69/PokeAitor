@@ -90,6 +90,9 @@ const App = () => {
             <p className="modal-content__type">
               Type: {selectedPokemon.type.join(', ')}
             </p>
+            <p className="modal-content__description">
+              {selectedPokemon.description}
+            </p>
 
             <button
               className="modal-content__button"
