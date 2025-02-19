@@ -259,6 +259,14 @@ const pokemons = [
     id: 17,
     name: 'Pidgeotto',
     type: ['Normal', 'Flying'],
+    stats: {
+      hp: 63,
+      attack: 60,
+      defense: 55,
+      specialAttack: 50,
+      specialDefense: 50,
+      speed: 71,
+    },
     description:
       'This pokemon is full of vitality. It constantly flies around its large territory in search of prey.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png',
