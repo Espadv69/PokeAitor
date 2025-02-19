@@ -151,6 +151,14 @@ const pokemons = [
       'Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png',
   },
+  {
+    id: 20,
+    name: 'Raticate',
+    type: ['Normal'],
+    description:
+      'Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png',
+  },
 ]
 
 export default pokemons
