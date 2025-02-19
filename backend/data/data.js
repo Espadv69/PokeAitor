@@ -143,6 +143,14 @@ const pokemons = [
       'This pokemon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png',
   },
+  {
+    id: 19,
+    name: 'Rattata',
+    type: ['Normal'],
+    description:
+      'Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png',
+  },
 ]
 
 export default pokemons
