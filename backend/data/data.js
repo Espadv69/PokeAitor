@@ -3,6 +3,14 @@ const pokemons = [
     id: 1,
     name: 'Bulbasaur',
     type: ['Grass', 'Poison'],
+    stats: {
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      specialAttack: 65,
+      specialDefense: 65,
+      speed: 45,
+    },
     description:
       'For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png',
