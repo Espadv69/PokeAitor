@@ -307,6 +307,14 @@ const pokemons = [
     id: 20,
     name: 'Raticate',
     type: ['Normal'],
+    stats: {
+      hp: 55,
+      attack: 81,
+      defense: 60,
+      specialAttack: 50,
+      specialDefense: 70,
+      speed: 97,
+    },
     description:
       'Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png',
