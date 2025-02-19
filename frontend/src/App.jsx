@@ -58,7 +58,7 @@ const App = () => {
                 <span
                   key={t}
                   style={{
-                    color: typeColor[t] || 'black',
+                    color: typeColor[t] || 'white',
                     fontWeight: 'bold',
                   }}
                 >
