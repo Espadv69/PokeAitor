@@ -119,6 +119,14 @@ const pokemons = [
       'It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png',
   },
+  {
+    id: 16,
+    name: 'Pidgey',
+    type: ['Normal', 'Flying'],
+    description:
+      'Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png',
+  },
 ]
 
 export default pokemons
