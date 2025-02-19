@@ -131,6 +131,14 @@ const pokemons = [
     id: 9,
     name: 'Blastoise',
     type: ['Water'],
+    stats: {
+      hp: 79,
+      attack: 83,
+      defense: 100,
+      specialAttack: 85,
+      specialDefense: 105,
+      speed: 78,
+    },
     description:
       'It deliberately increases its body weight so it can withstand the recoil of the water jets it fires.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png',
