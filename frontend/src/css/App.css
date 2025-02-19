@@ -69,6 +69,10 @@
   background: #060606;
 }
 
+.modal-content__stats {
+  text-align: left;
+}
+
 .modal-content__button {
   cursor: pointer;
   padding: .5rem 1rem;
