@@ -107,12 +107,12 @@ const App = () => {
 
             <ul className="modal-content__stats">
               <h3>Stats:</h3>
-              <li>Hp: {selectedPokemon.stats.hp}</li>
-              <li>Attack: {selectedPokemon.stats.attack}</li>
-              <li>Defense: {selectedPokemon.stats.defense}</li>
-              <li>Special Attack: {selectedPokemon.stats.specialAttack}</li>
-              <li>Special Defense: {selectedPokemon.stats.specialDefense}</li>
-              <li>Speed: {selectedPokemon.stats.speed}</li>
+              <li>Hp: <strong>{selectedPokemon.stats.hp}</strong></li>
+              <li>Attack: <strong>{selectedPokemon.stats.attack}</strong></li>
+              <li>Defense: <strong>{selectedPokemon.stats.defense}</strong></li>
+              <li>Special Attack: <strong>{selectedPokemon.stats.specialAttack}</strong></li>
+              <li>Special Defense: <strong>{selectedPokemon.stats.specialDefense}</strong></li>
+              <li>Speed: <strong>{selectedPokemon.stats.speed}</strong></li>
             </ul>
 
             <button
