@@ -108,6 +108,15 @@
   border-radius: .5rem;
 
   background: #060606;
+
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity .4s ease, transform .4s ease;
+}
+
+.show-modal {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .modal-content__description {
