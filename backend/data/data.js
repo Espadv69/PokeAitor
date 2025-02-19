@@ -127,6 +127,14 @@ const pokemons = [
       'Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png',
   },
+  {
+    id: 17,
+    name: 'Pidgeotto',
+    type: ['Normal', 'Flying'],
+    description:
+      'This pokemon is full of vitality. It constantly flies around its large territory in search of prey.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png',
+  },
 ]
 
 export default pokemons
