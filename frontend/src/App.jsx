@@ -88,7 +88,18 @@ const App = () => {
               className="modal-content__image"
             />
             <p className="modal-content__type">
-              Type: {selectedPokemon.type.join(', ')}
+              Type:{' '}
+              {selectedPokemon.type.map((t) => (
+                <span
+                  key={t}
+                  style={{
+                    color: typeColor[t] || 'white',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  {t}{' '}
+                </span>
+              ))}
             </p>
             <p className="modal-content__description">
               {selectedPokemon.description}
