@@ -19,6 +19,14 @@ const pokemons = [
     id: 2,
     name: 'Ivysaur',
     type: ['Grass', 'Poison'],
+    stats: {
+      hp: 60,
+      attack: 62,
+      defense: 63,
+      specialAttack: 80,
+      specialDefense: 80,
+      speed: 60,
+    },
     description:
       'The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png',
