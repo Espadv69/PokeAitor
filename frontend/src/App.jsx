@@ -91,7 +91,7 @@ const App = () => {
 
       {selectedPokemon && (
         <div className="modal-overlay" onClick={() => setSelectedPokemon(null)}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <div className="modal-content show-modal" onClick={(e) => e.stopPropagation()}>
             <h2 className="modal-content__name">{selectedPokemon.name}</h2>
             <img
               src={selectedPokemon.img}
