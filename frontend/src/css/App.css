@@ -26,7 +26,8 @@
 }
 
 .pokeLi:hover {
-  scale: 1.05;
+  scale: .95;
+  filter: brightness(1.2);
 }
 
 @media (max-width: 768px) {
