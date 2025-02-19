@@ -291,6 +291,14 @@ const pokemons = [
     id: 19,
     name: 'Rattata',
     type: ['Normal'],
+    stats: {
+      hp: 30,
+      attack: 56,
+      defense: 35,
+      specialAttack: 25,
+      specialDefense: 35,
+      speed: 72,
+    },
     description:
       'Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png',
