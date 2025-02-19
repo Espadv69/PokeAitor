@@ -105,6 +105,16 @@ const App = () => {
               {selectedPokemon.description}
             </p>
 
+            <ul className="modal-content__stats">
+              <h3>Stats:</h3>
+              <li>Hp: {selectedPokemon.stats.hp}</li>
+              <li>Attack: {selectedPokemon.stats.attack}</li>
+              <li>Defense: {selectedPokemon.stats.defense}</li>
+              <li>Special Attack: {selectedPokemon.stats.specialAttack}</li>
+              <li>Special Defense: {selectedPokemon.stats.specialDefense}</li>
+              <li>Speed: {selectedPokemon.stats.speed}</li>
+            </ul>
+
             <button
               className="modal-content__button"
               onClick={() => setSelectedPokemon(null)}
