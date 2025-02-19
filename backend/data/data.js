@@ -79,6 +79,14 @@ const pokemons = [
       'For protection, it releases a horrible stench from the antenna on its head to drive away enemies.',
     img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png',
   },
+  {
+    id: 11,
+    name: 'Metapod',
+    type: ['Bug'],
+    description:
+      'It is waiting for the moment to envolve. At this stage, it can only harden, so it remains motionless to avoid attack.',
+    img: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png',
+  },
 ]
 
 export default pokemons
